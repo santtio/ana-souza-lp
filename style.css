@@ -414,7 +414,9 @@ section { position: relative; }
 .atendimento { padding: 100px 0; }
 .at-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 720px;
+  margin: 0 auto;
   gap: 28px;
 }
 .at-card {
